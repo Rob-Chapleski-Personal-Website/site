@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(89, 0, 255);
+  margin: 0;
+  height: 100%;
+}
+
+.head-div {
+  width: 100%;
+  font-size: 2rem;
+  background-color: orange;
+  position: fixed;
+  padding: 1rem;
+}
+
+.head-div .name {
+  float: left;
+}
+
+.head-div .links {
+  float: right;
+}
+
+.body-text {
+  width: 80%;
+  height: 100%;
+  min-height: 100vw;
+  margin: auto;
+  background-color: rgb(146, 198, 150);
+  padding: 5rem 2rem 2rem 2rem;
+}
+
+.home .body-text p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.portfolio .page-title {
+  border-bottom: 1px solid black;
+}
+
+.about .section {
+  border-top: 1px solid black;
+}
+
+.portfolio .section {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.portfolio .section-title {
+  border-bottom: 1px solid black;
+}
+
+.portfolio .section-div {
+  height: 20rem;
+}
+
+.image-left {
+  float: left;
+  margin-left: 0px;
+  margin-right: 1rem;
+}
+
+.portfolio .image-left {
+  width: 33%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-right {
+  float: right;
+  margin-right: 0px;
+}
+
+.about .image-right {
+  margin-left: 1rem;
+}
+
+.portfolio .image-right {
+  width: 33%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 0.5rem;
+}
+
+.about img {
+  height: 12rem;
+}
+
+.portfolio img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+.about .paragraph {
+  min-height: 13rem;
+}
+
+.portfolio .paragraph {
+  height: 20rem;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.portfolio .paragraph::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.portfolio .paragraph::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black;
+  background-color: grey;
+  border-radius: 0.5rem;
+}
+
+.portfolio .paragraph::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 5px black;
+}
+
+.portfolio .paragraph::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(0, 247, 255);
+  box-shadow: inset 0 0 5px purple;
+}
+
+.foot-div {
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: orange;
+  position: fixed;
+  bottom: 0%;
+  padding: 1em;
+}
