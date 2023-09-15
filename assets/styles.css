@@ -4,37 +4,20 @@
 
 html {
   font-size: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: monospace;
 }
 
 body {
-  background-color: rgb(89, 0, 255);
+  background-color: white;
   margin: 0;
   height: 100%;
-}
-
-.head-div {
-  width: 100%;
-  font-size: 2rem;
-  background-color: orange;
-  position: fixed;
-  padding: 1rem;
-}
-
-.head-div .name {
-  float: left;
-}
-
-.head-div .links {
-  float: right;
 }
 
 .body-text {
   width: 80%;
   height: 100%;
-  min-height: 100vw;
-  margin: auto;
+  min-height: 100vh;
+  margin-left: auto;
   background-color: rgb(146, 198, 150);
   padding: 5rem 2rem 2rem 2rem;
 }
