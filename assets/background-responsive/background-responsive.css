@@ -16,6 +16,7 @@
   background-color: #8bac0f;
   border: 0.1em solid #306230;
   padding: 1em;
+  aspect-ratio: 1;
   font-size: 14px;
   text-align: center;
   z-index: 44444 !important;
