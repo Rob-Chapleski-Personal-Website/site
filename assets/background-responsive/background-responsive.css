@@ -20,13 +20,23 @@
   text-align: center;
   z-index: 44444 !important;
   position: relative;
-  transition: 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .tile:hover {
   transform: rotate(45deg);
   z-index: 44445 !important;
   box-shadow: rgba(15, 56, 15, 0.8) 3px 3px 3px;
-
+  background-color: #9bbc0f;
   transition: all 0.02s ease-in-out;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #9bbc0f;
+  }
+  100% {
+    background-color: #8bac0f;
+  }
 }
