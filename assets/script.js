@@ -21,5 +21,5 @@ siteBackground.send();
 
 // Replace elements with id="footer-nav" with the following HTML:
 
-const siteFooter = `<div class="foot-div">Add me on <a href="https://www.linkedin.com/in/robert-chapleski/" target="_blank">LinkedIn</a>!</div>`;
+const siteFooter = `<div class="foot-div">copyright 2023 drccjr</div>`;
 document.getElementById("footer-nav").innerHTML = siteFooter;
