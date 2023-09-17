@@ -9,6 +9,16 @@ siteHeader.onreadystatechange = function () {
 };
 siteHeader.send();
 
+const siteBackground = new XMLHttpRequest();
+siteBackground.open("GET", "background-responsive.html", true);
+siteBackground.onreadystatechange = function () {
+  if (this.readyState !== 4) return;
+  if (this.status !== 200) return;
+  document.getElementById("background-responsive").innerHTML =
+    this.responseText;
+};
+siteBackground.send();
+
 // Replace elements with id="footer-nav" with the following HTML:
 
 const siteFooter = `<div class="foot-div">Add me on <a href="https://www.linkedin.com/in/robert-chapleski/" target="_blank">LinkedIn</a>!</div>`;
