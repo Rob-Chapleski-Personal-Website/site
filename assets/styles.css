@@ -3,13 +3,13 @@
 }
 
 @font-face {
-  font-family: steve;
-  src: url(Steven.ttf);
+  font-family: billy;
+  src: url(Billy-Light.ttf);
 }
 
 html {
   font-size: 20px;
-  font-family: steve;
+  font-family: billy;
 }
 
 body {
