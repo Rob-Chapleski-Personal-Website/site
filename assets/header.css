@@ -1,6 +1,7 @@
 .nav-container {
   position: absolute;
   top: 0;
+  left: 0;
   background-color: rgba(170, 170, 170, 0.8);
   height: 100%;
   width: 7%;
