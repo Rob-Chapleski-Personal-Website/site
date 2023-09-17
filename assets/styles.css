@@ -9,7 +9,7 @@
 
 html {
   font-size: 20px;
-  font-family: billy;
+  font-family: billy, monospace;
 }
 
 body {
@@ -21,7 +21,6 @@ body {
 .body-text {
   width: 80%;
   height: 100%;
-  min-height: 100vh;
   margin-left: auto;
   background-color: rgb(146, 198, 150);
   padding: 5rem 2rem 2rem 2rem;
@@ -128,31 +127,32 @@ body {
 }
 
 .foot-div {
-  width: 100%;
+  /* width: 100%; */
   font-size: 0.8rem;
   text-align: center;
-  background-color: orange;
+  background-color: rgba(175, 175, 175, 0.8);
+  box-shadow: rgba(15, 56, 15, 0.8) 3px 3px 3px;
   position: fixed;
-  bottom: 0%;
-  padding: 1em;
+  right: 3px;
+  bottom: 3px;
+  padding: 0.5em;
   z-index: 8;
+  border-radius: 10px;
+  box-shadow: rgba(15, 56, 15, 0.8) 3px 3px 3px;
+  pointer-events: none;
+  color: rgb(15, 56, 15);
 }
 
 .body-container {
   position: absolute;
-  top: 8%;
+  top: 5%;
   right: 5%;
   width: 80%;
-  height: 80%;
+  height: 85%;
   z-index: 9;
   display: inline;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(175, 175, 175, 0.8);
+  box-shadow: rgba(15, 56, 15, 0.8) 3px 3px 3px;
   pointer-events: none;
-}
-
-.content-box {
-  position: relative;
-
-  width: 33%;
-  height: 80%;
+  border-radius: 10px;
 }
