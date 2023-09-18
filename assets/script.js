@@ -21,5 +21,5 @@ siteBackground.send();
 
 // Replace elements with id="footer-nav" with the following HTML:
 
-const siteFooter = `<div class="foot-div">copyright 2023 drccjr</div>`;
+const siteFooter = `<div class="foot-div">copyright 2023 drccjr, all rights reserved.</div>`;
 document.getElementById("footer-nav").innerHTML = siteFooter;
