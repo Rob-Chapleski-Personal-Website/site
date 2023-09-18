@@ -172,6 +172,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.contact .content-box h1 {
+  margin-bottom: 0rem;
+}
+
 .content-box h2 {
   margin: 0;
   text-align: left;
@@ -235,6 +239,17 @@ img {
   text-decoration: none;
   display: inline;
   background-color: rgba(155, 155, 155, 0.4);
+  box-shadow: rgba(15, 56, 15, 1) 3px 3px 3px;
+  padding: 0.3em;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: rgb(15, 56, 15) !important;
+}
+
+.my-contact .link-button {
+  text-decoration: none;
+  display: inline;
+  background-color: rgba(155, 155, 155, 0.8);
   box-shadow: rgba(15, 56, 15, 1) 3px 3px 3px;
   padding: 0.3em;
   margin: 0 auto;
