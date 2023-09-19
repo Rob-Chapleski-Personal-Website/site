@@ -172,7 +172,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.contact .content-box h1 {
+.content-box h1 {
   margin-bottom: 0rem;
 }
 
@@ -247,7 +247,11 @@ img {
 }
 
 .my-contact .link-button,
-#send-info {
+.ham-radio .link-button,
+#send-info,
+#go-back {
+  font-size: inherit;
+  font-family: inherit;
   text-decoration: none;
   display: inline-block;
   background-color: rgba(155, 155, 155, 0.8);
@@ -258,15 +262,18 @@ img {
   color: rgb(15, 56, 15) !important;
   text-align: left;
   text-indent: 0;
+  border: none;
 }
 
 .link-button:focus,
-#send-info:focus {
+#send-info:focus,
+#go-back:focus {
   transform: translate(2px, 1px);
 }
 
 .link-button:hover,
-#send-info:hover {
+#send-info:hover,
+#go-back:hover {
   background-color: rgba(155, 155, 155, 1);
 }
 
@@ -306,4 +313,9 @@ img {
 
 .your-message label {
   padding-right: 0.3em;
+}
+
+.submitted,
+.submitted h2 {
+  text-align: center;
 }
