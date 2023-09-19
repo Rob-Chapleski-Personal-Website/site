@@ -162,7 +162,7 @@ body {
   border-radius: 10px;
   margin: 1rem;
   padding: 0.5em;
-  box-shadow: rgba(15, 56, 15, 0.8) 3px 3px 3px;
+  box-shadow: rgba(15, 56, 15, 1) 3px 3px 3px;
 }
 
 .content-box h1 {
@@ -246,17 +246,64 @@ img {
   color: rgb(15, 56, 15) !important;
 }
 
-.my-contact .link-button {
+.my-contact .link-button,
+#send-info {
   text-decoration: none;
-  display: inline;
+  display: inline-block;
   background-color: rgba(155, 155, 155, 0.8);
   box-shadow: rgba(15, 56, 15, 1) 3px 3px 3px;
   padding: 0.3em;
   margin: 0 auto;
   border-radius: 10px;
   color: rgb(15, 56, 15) !important;
+  text-align: left;
+  text-indent: 0;
 }
 
-.link-button:hover {
+.link-button:focus,
+#send-info:focus {
+  transform: translate(2px, 1px);
+}
+
+.link-button:hover,
+#send-info:hover {
   background-color: rgba(155, 155, 155, 1);
+}
+
+.your-contact input {
+  font-size: inherit;
+  font-family: inherit;
+  background-color: rgba(155, 155, 155, 0.5);
+  box-shadow: rgba(15, 56, 15, 1) 3px 3px 3px;
+  padding: 0.3em;
+  border-radius: 10px;
+  color: rgba(139, 172, 15, 1);
+  height: auto;
+  border: none;
+}
+
+.your-contact *::placeholder {
+  color: inherit;
+}
+
+.your-contact textarea {
+  display: inline-block;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: rgba(155, 155, 155, 0.5);
+  box-shadow: rgba(15, 56, 15, 1) 3px 3px 3px;
+  padding: 0.3em;
+  border-radius: 10px;
+  color: rgba(139, 172, 15, 1);
+  height: auto;
+  border: none;
+}
+
+.your-message {
+  display: flex;
+  align-items: center;
+}
+
+.your-message label {
+  padding-right: 0.3em;
 }
