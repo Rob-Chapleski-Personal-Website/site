@@ -6,17 +6,102 @@
     <title>Best way to reach you?</title>
     <link rel="stylesheet" href="../assets/styles.css" />
     <link rel="stylesheet" href="../assets/header.css" />
+    <link rel="stylesheet" href="../assets/background-responsive.css" />
     <script src="../assets/script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/98898d1e6d.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="home">
+  <body>
+    <div id="background-responsive"></div>
     <header id="header-nav"></header>
-    <div class="body-text">
-      <p>Hello!</p>
-      <p>input will go here.... someday...</p>
+    <div class="contact body-container">
+      <section class="section-head content-box">
+        <h1>Contact</h1>
+      </section>
+      <section class="get-contact content-box">
+        <h2>Follow You</h2>
+        <form class="your-contact" action="./submitted.html">
+          <div class="section-text">
+            <label for="fullname">Name:</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="type name here now."
+            />
+          </div>
+          <div class="section-text">
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="then type email here."
+            />
+          </div>
+          <div class="your-message section-text">
+            <label for="message">Message: </label>
+            <textarea
+              type="text"
+              id="message"
+              name="message"
+              placeholder="then tell me more about my eyes here."
+              rows="2"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="section-text">
+            <label for="send-info">Submit:</label>
+            <input
+              type="submit"
+              id="send-info"
+              name="send-info"
+              value="then click here."
+            />
+          </div>
+        </form>
+      </section>
+      <section class="my-contact content-box">
+        <h2>Follow Me</h2>
+        <div class="section-text">
+          Email:
+          <a
+            class="link-button"
+            href="mailto:Chapleski17@gmail.com?subject=Hey! I like your webpage!"
+            >Chapleski17@gmail.com</a
+          >
+        </div>
+        <div class="section-text">
+          Linkedin:
+          <a
+            class="link-button"
+            href="https://www.linkedin.com/in/robert-chapleski/"
+            target="_blank"
+            >Rob Chapleski, Ph.D.</a
+          >
+        </div>
+        <div class="section-text">
+          Github:
+          <a
+            class="link-button"
+            href="https://github.com/rccolamachine/"
+            target="_blank"
+            >rccolamachine</a
+          >
+        </div>
+
+        <div class="section-text">
+          Twitch:
+          <a
+            class="link-button"
+            href="https://www.twitch.tv/atomicgecko7"
+            target="_blank"
+            >atomicgecko7</a
+          >
+        </div>
+      </section>
     </div>
     <footer id="footer-nav"></footer>
   </body>
